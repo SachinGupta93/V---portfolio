@@ -10,11 +10,11 @@
   --text-secondary: #A0A0A0;
   --text-muted: #666666;
 
-  /* Warm Gold Accent */
-  --accent: #D4AF37;
-  --accent-light: #F5D67B;
-  --accent-glow: rgba(212, 175, 55, 0.25);
-  --accent-glow-strong: rgba(212, 175, 55, 0.5);
+  /* Professional Blue Accent */
+  --accent: #3B82F6;
+  --accent-light: #60A5FA;
+  --accent-glow: rgba(59, 130, 246, 0.25);
+  --accent-glow-strong: rgba(59, 130, 246, 0.5);
 
   --border-subtle: rgba(255, 255, 255, 0.08);
 

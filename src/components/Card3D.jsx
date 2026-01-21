@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-const Card3D = ({ children, className = "", glowColor = "rgba(212, 175, 55, 0.3)" }) => {
+const Card3D = ({ children, className = "", glowColor = "rgba(59, 130, 246, 0.3)" }) => {
     const cardRef = useRef(null);
     const [rotateX, setRotateX] = useState(0);
     const [rotateY, setRotateY] = useState(0);
