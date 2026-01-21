@@ -34,7 +34,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                     >
-                        <span className="hero-eyebrow"><span className="gold">Digital Strategist</span> & <span className="gold">Security Enthusiast</span></span>
+                        <span className="hero-eyebrow"><span className="gold">Digital Marketing Associate</span> & <span className="gold">Digital Marketing Expert</span></span>
 
                         <h1 className="hero-title">
                             <WaveText text="Vivek" delay={0} />
