@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaArrowRight, FaDownload } from 'react-icons/fa';
-import profileImg from '../assets/profile2.jpg';
+import profileImg from '../assets/profile1.jpg';
 
 // Wave text animation component
 const WaveText = ({ text, delay = 0 }) => {
@@ -34,7 +34,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                     >
-                        <span className="hero-eyebrow"><span className="gold">Digital Marketing Associate</span>  <span className="gold">Digital Marketing Expert</span></span>
+                        <span className="hero-eyebrow"><span className="gold">Digital Marketing Specialist</span> & <span className="gold">Growth Strategist</span></span>
 
                         <h1 className="hero-title">
                             <WaveText text="Vivek" delay={0} />
@@ -45,8 +45,8 @@ const Hero = () => {
 
                         <p className="hero-desc">
                             I design <span className="gold">growth strategies</span> that don't just reach audiences—they resonate.
-                            My dual expertise in <span className="gold">digital marketing</span> and <span className="gold">cybersecurity</span> ensures your brand
-                            is both visible and protected.
+                            Expert in driving organic visibility through <span className="gold">SEO</span>, conversion-focused <span className="gold">SEM</span>,
+                            and data-driven <span className="gold">digital marketing</span>.
                         </p>
 
                         <div className="hero-buttons">

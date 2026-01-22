@@ -5,7 +5,7 @@ import Card3D from './Card3D';
 const certs = [
     {
         title: "Internship Completion",
-        issuer: "Hashnod",
+        issuer: "Skill Vertex",
         link: "https://drive.google.com/file/d/1M3EYatqRjvqxOuS_jZmRQIub6lFcONsp/view"
     },
     {

@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Card3D from './Card3D';
 
 const experiences = [
+   
     {
         role: "Digital Marketing Intern",
         company: "Hashnod Company",
@@ -12,6 +13,18 @@ const experiences = [
             "Administered <span class='gold'>WordPress</span> websites, implementing SEO-optimized configurations and plugin management.",
             "Conducted in-depth <span class='gold'>keyword research</span> and competitive analysis to inform content strategies.",
             "Supported <span class='gold'>email marketing</span> and affiliate marketing initiatives to drive conversions."
+        ]
+    },
+     {
+        role: "Cyber Security Intern",
+        company: "Skill Vertex",
+        date: "Oct 2024 - Jan 2025",
+        points: [
+            "Conducted thorough <span class='gold'>vulnerability assessments</span> and security audits for web applications.",
+            "Implemented <span class='gold'>security protocols</span> and monitored network traffic for potential threats.",
+            "Gained hands-on experience in <span class='gold'>ethical hacking</span> and risk mitigation strategies.",
+            "Collaborated on designing secure infrastructure for digital platforms.",
+            "Performed 3 months of intensive training and practical application of <span class='gold'>cybersecurity frameworks</span>."
         ]
     },
     {

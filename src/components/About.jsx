@@ -3,7 +3,7 @@ import Card3D from './Card3D';
 
 const About = () => {
     const stats = [
-        { number: "3+", label: "Months Internship" },
+        { number: "6+", label: "Months Internship" },
         { number: "10+", label: "Skills Mastered" },
         { number: "5+", label: "Certifications" },
         { number: "3+", label: "Projects Delivered" },
@@ -24,7 +24,7 @@ const About = () => {
                         <span className="section-label">Who I Am</span>
                         <h2 className="section-heading">
                             Where <span>Strategy</span><br />
-                            Meets Security
+                            Meets Performance
                         </h2>
 
                         <div className="about-stats">
@@ -56,21 +56,18 @@ const About = () => {
                         transition={{ duration: 0.6, delay: 0.2 }}
                     >
                         <p>
-                            I'm a <span className="gold">B.Tech Cyber Security</span> student at Vignana Bharathi Institute of Technology
-                            with a passion that extends far beyond the classroom. My journey began with
-                            a curiosity for how systems work—and evolved into a mission to make them
-                            work <span className="white">better</span> and <span className="white">safer</span>.
+                            I'm a <span className="gold">Digital Marketing Professional</span> with a strong technical background in B.Tech Cyber Security.
+                            My unique perspective allows me to build marketing strategies that are not only <span className="white">impactful</span>
+                            but also <span className="white">analytically sound</span> and <span className="white">secure</span>.
                         </p>
                         <p>
-                            As a former <span className="gold">Digital Marketing Intern</span> at Hashnod, I mastered the art of
-                            driving organic growth through <span className="gold">SEO</span>, <span className="gold">SEM</span>, and strategic content.
-                            Now, I combine that marketing acumen with my security mindset to
-                            build digital experiences that are both impactful and secure.
+                            During my tenures as a <span className="gold">Digital Marketing Intern</span> at Hashnod and other collaborations, I mastered
+                            the art of driving organic growth through <span className="gold">SEO</span>, <span className="gold">SEM</span>, and strategic
+                            content development. I focus on creating digital experiences that bridge the gap between business goals and user needs.
                         </p>
                         <p>
-                            Whether it's optimizing a campaign for maximum reach or analyzing
-                            network vulnerabilities, I approach every challenge with <span className="white">data</span>,
-                            <span className="white"> precision</span>, and a relentless drive to excel.
+                            Whether it's optimizing search rankings or crafting conversion-led campaigns, I approach every challenge with
+                            <span className="white"> data precision</span> and a relentless drive to deliver measurable results.
                         </p>
                     </motion.div>
 

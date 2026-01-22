@@ -1,18 +1,16 @@
-import { FaSearch, FaChartLine, FaBullhorn, FaShieldAlt, FaPython, FaWordpress, FaHtml5, FaReact, FaGoogle, FaCode } from 'react-icons/fa';
+import { FaShieldAlt, FaLock, FaNetworkWired, FaUserSecret, FaBug, FaSearchPlus, FaCloud, FaServer } from 'react-icons/fa';
 
 const skills = [
-    { name: "SEO Strategy", icon: <FaSearch /> },
-    { name: "Google Ads", icon: <FaGoogle /> },
-    { name: "Social Media Marketing", icon: <FaChartLine /> },
-    { name: "Affiliate Marketing", icon: <FaBullhorn /> },
-    { name: "Google Analytics", icon: <FaChartLine /> },
-    { name: "Content Strategy", icon: <FaBullhorn /> },
-    { name: "Python", icon: <FaPython /> },
-    { name: "WordPress", icon: <FaWordpress /> },
-    { name: "HTML/CSS", icon: <FaHtml5 /> },
-    { name: "React.js", icon: <FaReact /> },
-    { name: "Cyber Security", icon: <FaShieldAlt /> },
-    { name: "Web Development", icon: <FaCode /> },
+    { name: "Network Security", icon: <FaNetworkWired /> },
+    { name: "Vulnerability Assessment", icon: <FaSearchPlus /> },
+    { name: "Ethical Hacking", icon: <FaUserSecret /> },
+    { name: "Cryptography", icon: <FaLock /> },
+    { name: "Web Application Security", icon: <FaShieldAlt /> },
+    { name: "Pentesting", icon: <FaBug /> },
+    { name: "Cloud Security", icon: <FaCloud /> },
+    { name: "Identity Management", icon: <FaServer /> },
+    { name: "SIEM/SOC Operations", icon: <FaShieldAlt /> },
+    { name: "Incident Response", icon: <FaLock /> },
 ];
 
 // Duplicate for seamless loop
