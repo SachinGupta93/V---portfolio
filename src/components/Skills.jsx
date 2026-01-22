@@ -1,6 +1,20 @@
-import { FaShieldAlt, FaLock, FaNetworkWired, FaUserSecret, FaBug, FaSearchPlus, FaCloud, FaServer } from 'react-icons/fa';
+import {
+    FaSearch, FaChartLine, FaBullhorn, FaShieldAlt, FaPython,
+    FaWordpress, FaHtml5, FaReact, FaGoogle, FaCode,
+    FaLock, FaNetworkWired, FaUserSecret, FaBug, FaSearchPlus, FaCloud, FaServer
+} from 'react-icons/fa';
 
 const skills = [
+    // Digital Marketing
+    { name: "SEO Strategy", icon: <FaSearch /> },
+    { name: "Google Ads", icon: <FaGoogle /> },
+    { name: "Social Media Marketing", icon: <FaChartLine /> },
+    { name: "Affiliate Marketing", icon: <FaBullhorn /> },
+    { name: "Google Analytics", icon: <FaChartLine /> },
+    { name: "Content Strategy", icon: <FaBullhorn /> },
+    { name: "WordPress", icon: <FaWordpress /> },
+
+    // Cyber Security
     { name: "Network Security", icon: <FaNetworkWired /> },
     { name: "Vulnerability Assessment", icon: <FaSearchPlus /> },
     { name: "Ethical Hacking", icon: <FaUserSecret /> },
@@ -8,9 +22,10 @@ const skills = [
     { name: "Web Application Security", icon: <FaShieldAlt /> },
     { name: "Pentesting", icon: <FaBug /> },
     { name: "Cloud Security", icon: <FaCloud /> },
-    { name: "Identity Management", icon: <FaServer /> },
-    { name: "SIEM/SOC Operations", icon: <FaShieldAlt /> },
-    { name: "Incident Response", icon: <FaLock /> },
+
+    // Development
+    { name: "Python", icon: <FaPython /> },
+    { name: "HTML/CSS", icon: <FaHtml5 /> },
 ];
 
 // Duplicate for seamless loop

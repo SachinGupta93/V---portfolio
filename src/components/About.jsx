@@ -6,7 +6,7 @@ const About = () => {
         { number: "6+", label: "Months Internship" },
         { number: "10+", label: "Skills Mastered" },
         { number: "5+", label: "Certifications" },
-        { number: "3+", label: "Projects Delivered" },
+        { number: "15+", label: "Projects Delivered" },
     ];
 
     return (
